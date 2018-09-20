@@ -1,0 +1,36 @@
+{
+	"name": "@liara/sdk",
+	"version": "0.1.0",
+	"description": "Liara SDK for NodeJS",
+	"license": "MIT",
+	"repository": "liara-ir/liara-node-sdk",
+	"author": {
+		"name": "Mohammad Hossein Ebadollahi",
+		"email": "mhemrg120@gmail.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"liara",
+		"cloud",
+		"sdk",
+		"host",
+		"deploy",
+		"storage",
+		"upload"
+	],
+	"dependencies": {
+		"@sindresorhus/is": "^0.11.0",
+		"got": "^5.7.1"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0"
+	}
+}
