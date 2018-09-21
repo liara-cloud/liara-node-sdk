@@ -3,28 +3,33 @@
 >
 
 
-## Install
+<div dir="rtl">
+	<h2>نصب</h2>
+</div>
 
 ```
 $ npm install @liara/sdk
 ```
 
 
-## Usage
+<div dir="rtl">
+	<h2>نحوه‌ی استفاده</h2>
+</div>
 
 ```js
 const LiaraSDK = require('@liara/sdk');
 
 const storage = new LiaraSDK.Storage({
-	secret_key: 'YOUR_SECRET_KEY'
+  secret_key: 'YOUR_SECRET_KEY'
 });
 
 storage.put('file.txt', 'Hello World!');
 ```
 
-## Documentation
-
-برای مطالعه‌ی مستندات فارسی، به این لینک مراجعه کنید.
+<div dir="rtl">
+	<h2>مستندات</h2>
+	برای مطالعه‌ی مستندات فارسی، به این لینک مراجعه کنید.
+</div>
 
 ## License
 
