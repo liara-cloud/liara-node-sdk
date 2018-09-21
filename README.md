@@ -1,4 +1,4 @@
-# liara-js-sdk [![Build Status](https://travis-ci.org/liara-ir/liara-js-sdk.svg?branch=master)](https://travis-ci.org/liara-ir/liara-js-sdk)
+# liara-node-sdk [![Build Status](https://travis-ci.org/liara-ir/liara-node-sdk.svg?branch=master)](https://travis-ci.org/liara-ir/liara-node-sdk)
 
 >
 
