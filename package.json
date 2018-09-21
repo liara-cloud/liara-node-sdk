@@ -28,7 +28,8 @@
 	],
 	"dependencies": {
 		"@sindresorhus/is": "^0.11.0",
-		"got": "^5.7.1"
+		"got": "^5.7.1",
+		"lodash": "^4.17.11"
 	},
 	"devDependencies": {
 		"ava": "^0.25.0"
