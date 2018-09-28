@@ -17,13 +17,13 @@ $ npm install @liara/sdk
 </div>
 
 ```js
-const LiaraSDK = require('@liara/sdk');
+const Liara = require('@liara/sdk');
 
-const storage = new LiaraSDK.Storage({
+const { Storage } = new Liara({
   secret_key: 'YOUR_SECRET_KEY'
 });
 
-storage.put('file.txt', 'Hello World!');
+Storage.put('file.txt', 'Hello World!');
 ```
 
 <div dir="rtl">
