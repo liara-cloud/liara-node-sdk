@@ -12,6 +12,7 @@
 		"node": ">=6"
 	},
 	"scripts": {
+		"deploy": "npm publish --access public",
 		"test": "ava"
 	},
 	"files": [
