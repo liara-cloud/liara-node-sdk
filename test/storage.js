@@ -5,6 +5,7 @@ import { createReadStream } from 'fs';
 import Liara from '..';
 
 const { Storage } = new Liara({
+	namespace: 'my-namespace',
 	secret_key: 'my key',
 });
 
@@ -14,7 +15,7 @@ test('get string body size', async t => {
 });
 
 test('get buffer body size', async t => {
-	const size = await Storage._getBodySize(Buffer('boom'));
+	const size = await Storage._getBodySize(Buffer.from('boom'));
 	t.is(size, 4);
 });
 
