@@ -1,6 +1,6 @@
 {
 	"name": "@liara/sdk",
-	"version": "0.1.1",
+	"version": "0.1.3",
 	"description": "Liara SDK for NodeJS",
 	"license": "MIT",
 	"repository": "liara-ir/liara-node-sdk",
@@ -16,7 +16,8 @@
 		"test": "ava"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"lib/"
 	],
 	"keywords": [
 		"liara",
