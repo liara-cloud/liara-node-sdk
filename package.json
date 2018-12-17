@@ -36,6 +36,7 @@
 		"util.promisify": "^1.0.0"
 	},
 	"devDependencies": {
-		"ava": "^0.25.0"
+		"ava": "^0.25.0",
+		"nock": "^10.0.4"
 	}
 }
