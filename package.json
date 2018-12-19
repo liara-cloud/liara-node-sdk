@@ -12,13 +12,11 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"deploy": "npm publish --access public",
-		"test": "ava"
+		"deploy": "npm publish --access public"
 	},
 	"files": [
 		"index.js",
-		"lib/",
-		"README.md"
+		"lib/"
 	],
 	"keywords": [
 		"liara",
@@ -30,13 +28,6 @@
 		"upload"
 	],
 	"dependencies": {
-		"@sindresorhus/is": "^0.11.0",
-		"got": "^9.3.2",
-		"lodash": "^4.17.11",
-		"util.promisify": "^1.0.0"
-	},
-	"devDependencies": {
-		"ava": "^0.25.0",
-		"nock": "^10.0.4"
+		"minio": "^7.0.2"
 	}
 }
